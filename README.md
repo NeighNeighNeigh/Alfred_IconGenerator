@@ -1,4 +1,4 @@
-# Alfred_IconGenerator
+# Alfred Icon Generator
 Icon Generator quickly converts a symbol from SF Symbols to a png for use in workflows.
 
 ![image](https://user-images.githubusercontent.com/4795315/192548095-26a6fc17-15b4-4e13-a6be-03a1ba0400e9.png)
@@ -17,7 +17,7 @@ copy icon from SF Symbols
 
 ![image](https://user-images.githubusercontent.com/4795315/192548247-e65a0012-a33f-4fb2-a64d-dc2f87588ab1.png)
 
-##Step two
+## Step two
 Run workflow
 
 ![image](https://user-images.githubusercontent.com/4795315/192548288-00cd1ea5-df59-4605-86ac-2a2eacb628b3.png)
