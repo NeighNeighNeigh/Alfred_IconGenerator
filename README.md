@@ -25,6 +25,8 @@ Run workflow
 ## Step three
 Paste your new icon wherever you like
 
+![image](https://user-images.githubusercontent.com/4795315/192553997-6c75ab7f-ac9d-478d-aa1c-63f53b2ecf81.png)
+
 That's it.
  
 This workflow was adapted from code by Mark Gavin - https://labs.appligent.com/pdfblog/convert-sf-symbols-to-images/
