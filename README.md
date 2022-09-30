@@ -1,3 +1,7 @@
+# Note
+I'm troubleshooting right now and have not updated the readme to reflect recent changes
+
+
 # Alfred Icon Generator
 Icon Generator quickly converts a symbol from SF Symbols to a png for use in workflows.
 
