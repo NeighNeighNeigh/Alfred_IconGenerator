@@ -22,12 +22,13 @@ Must install SF-Pro-Display-Bold.otf from Apple - https://devimages-cdn.apple.co
 You can configure the icon colour as well as the location on disk where icons are generated (defaults to /tmp) 
 
 # Operation
-There's 2 ways to run the workflow: Through the clipboard or through Alfred's Universal Actions.
 
-1. Clipboard method
-Copy a single symbol to the clipboard then run the trigger. tada, your clipboard now has your new icon on it.
+There's 2 ways to run the workflow, through the clipboard or through Alfred's Universal Actions (Text Action).
 
-2. Universal Action method
+1. Clipboard method:
+Copy a single symbol to the clipboard then run the trigger. Tada, your clipboard now has your new icon on it.
+
+2. Universal Action method:
 Select a single symbol and execute the workflow through Alfred's univeral action feature. Again, tada.
 
 # Credit
