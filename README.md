@@ -14,9 +14,8 @@ I make extensive use of Alfred's List Filters to pop up various little context m
 So this is a solution to quickly generate pretty and consistent icons.
 
 # Dependencies: 
-Must install ImageMagick first - `brew install imagemagick`
-
-Must install SF-Pro-Display-Bold.otf from Apple - https://devimages-cdn.apple.com/design/resources/download/SF-Pro.dmg
+ImageMagick - `brew install imagemagick`
+SF Symbols - https://developer.apple.com/sf-symbols/
 
 # Configuration
 You can configure the icon colour as well as the location on disk where icons are generated (defaults to /tmp) 
@@ -31,6 +30,6 @@ Copy a single symbol to the clipboard then run the trigger. Tada, your clipboard
 2. Universal Action method:
 Select a single symbol and execute the workflow through Alfred's universal action feature. Again, tada.
 
-# Credit
+# Acknowledgements
 This workflow was adapted from code by Mark Gavin - https://labs.appligent.com/pdfblog/convert-sf-symbols-to-images/
 This wouldn't be possible without the help of user Vitor from the Alfred forum. 
