@@ -34,11 +34,24 @@
 				<false/>
 			</dict>
 		</array>
+		<key>4FA4BCF1-5C8D-4966-9E92-83F294E721CA</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C4B6F70E-2BF5-47E8-9116-FA95E71931AA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>5C5DFAFA-B4E7-4A90-990D-B9DB9703F9B8</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>0C193D95-D63C-4AE9-A23C-6A05088FAB65</string>
+				<string>90D69369-CC54-4310-A694-9CEC0C2CD34B</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -60,11 +73,36 @@
 				<false/>
 			</dict>
 		</array>
-		<key>A6E73533-57E0-4781-8F3C-E21CB458E4C5</key>
+		<key>90D69369-CC54-4310-A694-9CEC0C2CD34B</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>0C193D95-D63C-4AE9-A23C-6A05088FAB65</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>CE6EE70E-280C-4B94-89C7-4FC11027C401</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>4FA4BCF1-5C8D-4966-9E92-83F294E721CA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A6E73533-57E0-4781-8F3C-E21CB458E4C5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>90D69369-CC54-4310-A694-9CEC0C2CD34B</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -121,6 +159,33 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>query="$1"
+convert -background $bgColour -font /Library/Fonts/SF-Pro-Display-Bold.otf -fill $colour -gravity "center" -size "256x256" caption:"$query" +repage -depth 8 "$output"
+
+convert $output -matte mask.png \
+  -compose DstIn -composite "$output"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>0C193D95-D63C-4AE9-A23C-6A05088FAB65</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argument</key>
 				<string>{clipboard}</string>
 				<key>passthroughargument</key>
@@ -165,27 +230,34 @@ set the clipboard to (read (POSIX file output) as  {«class PNGf»})</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:useBg}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>5</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Yes Background</string>
+						<key>uid</key>
+						<string>CE6EE70E-280C-4B94-89C7-4FC11027C401</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>No background</string>
+				<key>hideelse</key>
 				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>query="$1"
-
-convert -background none -font /Library/Fonts/SF-Pro-Display-Bold.otf -fill $colour -gravity "center" -size "512x512"  caption:"$query" +repage -depth 8 "$output"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>5</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.script</string>
+			<string>alfred.workflow.utility.conditional</string>
 			<key>uid</key>
-			<string>0C193D95-D63C-4AE9-A23C-6A05088FAB65</string>
+			<string>90D69369-CC54-4310-A694-9CEC0C2CD34B</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -199,6 +271,30 @@ convert -background none -font /Library/Fonts/SF-Pro-Display-Bold.otf -fill $col
 			<string>C4B6F70E-2BF5-47E8-9116-FA95E71931AA</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>query="$1"
+convert -background none -font /Library/Fonts/SF-Pro-Display-Bold.otf -fill $colour -gravity "center" -size "256x256" caption:"$query" +repage -depth 8 "$output"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>4FA4BCF1-5C8D-4966-9E92-83F294E721CA</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -249,7 +345,7 @@ Dependencies:
 Must install ImageMagick first - brew install imagemagick
 Must install SF-Pro-Display-Bold.otf from Apple - https://devimages-cdn.apple.com/design/resources/download/SF-Pro.dmg
 
-You can configure the icon colour as well as the location on disk where icons are generated (defaults to /tmp) 
+You can configure the icon colour, adjust background settings as well as define the location on disk where icons are generated (defaults to /tmp) 
 
 There's 2 ways to run the workflow: Through the clipboard or through Alfred's Universal Actions.
 
@@ -265,16 +361,16 @@ This workflow was adapted from work by Mark Gavin - https://labs.appligent.com/p
 		<key>0C193D95-D63C-4AE9-A23C-6A05088FAB65</key>
 		<dict>
 			<key>xpos</key>
-			<real>435</real>
+			<real>750</real>
 			<key>ypos</key>
-			<real>340</real>
+			<real>285</real>
 		</dict>
 		<key>26D2696E-1778-488C-A6C6-F359D94F221E</key>
 		<dict>
 			<key>xpos</key>
-			<real>780</real>
+			<real>1180</real>
 			<key>ypos</key>
-			<real>340</real>
+			<real>365</real>
 		</dict>
 		<key>4E50EE8A-A0B7-4FEE-93FE-5F0EF7532709</key>
 		<dict>
@@ -282,6 +378,13 @@ This workflow was adapted from work by Mark Gavin - https://labs.appligent.com/p
 			<real>75</real>
 			<key>ypos</key>
 			<real>445</real>
+		</dict>
+		<key>4FA4BCF1-5C8D-4966-9E92-83F294E721CA</key>
+		<dict>
+			<key>xpos</key>
+			<real>755</real>
+			<key>ypos</key>
+			<real>415</real>
 		</dict>
 		<key>5C5DFAFA-B4E7-4A90-990D-B9DB9703F9B8</key>
 		<dict>
@@ -297,6 +400,13 @@ This workflow was adapted from work by Mark Gavin - https://labs.appligent.com/p
 			<key>ypos</key>
 			<real>280</real>
 		</dict>
+		<key>90D69369-CC54-4310-A694-9CEC0C2CD34B</key>
+		<dict>
+			<key>xpos</key>
+			<real>475</real>
+			<key>ypos</key>
+			<real>385</real>
+		</dict>
 		<key>A6E73533-57E0-4781-8F3C-E21CB458E4C5</key>
 		<dict>
 			<key>xpos</key>
@@ -307,9 +417,9 @@ This workflow was adapted from work by Mark Gavin - https://labs.appligent.com/p
 		<key>C4B6F70E-2BF5-47E8-9116-FA95E71931AA</key>
 		<dict>
 			<key>xpos</key>
-			<real>655</real>
+			<real>1055</real>
 			<key>ypos</key>
-			<real>370</real>
+			<real>395</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
@@ -318,7 +428,7 @@ This workflow was adapted from work by Mark Gavin - https://labs.appligent.com/p
 			<key>config</key>
 			<dict>
 				<key>default</key>
-				<string>#00aeee</string>
+				<string>#8BE9FD</string>
 				<key>placeholder</key>
 				<string></string>
 				<key>required</key>
@@ -327,7 +437,7 @@ This workflow was adapted from work by Mark Gavin - https://labs.appligent.com/p
 				<true/>
 			</dict>
 			<key>description</key>
-			<string>Choose colour for icons. Accepts hex: #52f97b or RGB: rgb(82, 249, 123)</string>
+			<string>Accepts hex: #52f97b or RGB: rgb(82, 249, 123)</string>
 			<key>label</key>
 			<string>Colour</string>
 			<key>type</key>
@@ -339,9 +449,51 @@ This workflow was adapted from work by Mark Gavin - https://labs.appligent.com/p
 			<key>config</key>
 			<dict>
 				<key>default</key>
+				<false/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string></string>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Use Background?</string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>useBg</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>#6272A4</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Accepts hex: #52f97b or RGB: rgb(82, 249, 123)</string>
+			<key>label</key>
+			<string>Background Colour</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>bgColour</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
 				<string>/tmp</string>
 				<key>filtermode</key>
 				<integer>1</integer>
+				<key>placeholder</key>
+				<string></string>
 				<key>required</key>
 				<true/>
 			</dict>
@@ -358,7 +510,7 @@ This workflow was adapted from work by Mark Gavin - https://labs.appligent.com/p
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>0.1.1</string>
+	<string>0.2.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/NeighNeighNeigh/Alfred_IconGenerator</string>
 </dict>
