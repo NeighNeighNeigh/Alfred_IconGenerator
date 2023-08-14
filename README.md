@@ -1,5 +1,5 @@
 # Alfred Icon Generator
-This workflow will convert a single Emoji or SF Symbol to an icon (png file) and place it on the clipboard. Handy for adding icons in your Alfred workflows. 
+This workflow will convert a single Emoji or SF Symbol to an icon (png file) and place it on the clipboard. Handy for adding icons to your Alfred workflows. 
 
 <img width="1427" alt="image" src="https://github.com/NeighNeighNeigh/Alfred_IconGenerator/assets/4795315/c707bc5a-cb07-441b-bb1f-822c62210c5f">
 
