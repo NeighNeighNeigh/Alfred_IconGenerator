@@ -1,35 +1,32 @@
 # Alfred Icon Generator
-Icon Generator quickly converts any SF Symbol to a .png file for use in Alfred workflows.
+This workflow will convert a single Emoji or SF Symbol to an icon (png file) and place it on the clipboard. Handy for adding icons in your Alfred workflows. 
 
-![SCR-20221001-2zf](https://user-images.githubusercontent.com/4795315/193312018-ed7c1ac4-087c-4abc-840c-6461cb2bf32b.png)
+<img width="1427" alt="image" src="https://github.com/NeighNeighNeigh/Alfred_IconGenerator/assets/4795315/c707bc5a-cb07-441b-bb1f-822c62210c5f">
 
-# Demonstration
-https://user-images.githubusercontent.com/4795315/193312166-13437d6c-cf65-449a-99aa-427dff68be45.mp4
 
-# Why I made this
-I make extensive use of Alfred's List Filters to pop up various little context menus all over the place throughout my being on the computer. I like to include icons for many of these entries, for example, here is my Audio Hijack loudness adapted volume control popup menu:
+## Dependencies: 
+ - SF Symbols - https://developer.apple.com/sf-symbols/
+ - ImageMagick (available via Homebrew)
+ - Pillow for Python (available via Homebrew)
 
-![image](https://user-images.githubusercontent.com/4795315/192548164-a4684b48-8184-4777-9660-745fc7c47338.png)
+(Note: the latter two dependencies can be handled by Alfred if you are installing through the [Alfred Gallery](https://alfred.app/workflows/floatingpoint/icon-generator/))
 
-So this is a solution to quickly generate pretty and consistent icons.
+## Configuration
+In the workflow's configuration you can adjust the SF Symbol weight, colour and background settings, as well as define the location on disk where icons are generated (defaults to /tmp) 
 
-# Dependencies: 
-ImageMagick - `brew install imagemagick`
-SF Symbols - https://developer.apple.com/sf-symbols/
+## There's 2 ways to run the workflow
 
-# Configuration
-You can configure the icon colour as well as the location on disk where icons are generated (defaults to /tmp) 
+### 1. Clipboard method
 
-# Operation
+Copy either a single symbol from SF symbols, or a single emoji to the clipboard. Now run the trigger. The workflow has converted the source into a png image and copied it to your clipboard - ready to paste into any icon field within Alfred (or wherever you like).
 
-There's 2 ways to run the workflow, through the clipboard or through Alfred's Universal Actions (Text Action).
+### 2. Universal Action method
 
-1. Clipboard method:
-Copy a single symbol to the clipboard then run the trigger. Tada, your clipboard now has your new icon on it.
+Select a single symbol / emoji and execute the workflow through Alfred's univeral action feature.
 
-2. Universal Action method:
-Select a single symbol and execute the workflow through Alfred's universal action feature. Again, tada.
 
-# Acknowledgements
-This workflow was adapted from code by Mark Gavin - https://labs.appligent.com/pdfblog/convert-sf-symbols-to-images/
+## Acknowledgements
+
+The SF Symbols portion of this workflow was adapted from work by Mark Gavin - https://labs.appligent.com/pdfblog/convert-sf-symbols-to-images/
+
 This wouldn't be possible without the help of user Vitor from the Alfred forum. 
