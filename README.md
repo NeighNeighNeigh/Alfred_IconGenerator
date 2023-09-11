@@ -4,7 +4,7 @@
 Icon Generator will quickly convert an SF Symbol or Emoji to .png for use in workflows.
 It has some nice options for adjusting appearance including a configurable colour palette.
 
-[Download from GitHub](https://github.com/NeighNeighNeigh/Alfred_IconGenerator/releases/latest)   |   [Alfred Gallery Page](https://alfred.app/workflows/floatingpoint/icon-generator/)
+Download: [GitHub](https://github.com/NeighNeighNeigh/Alfred_IconGenerator/releases/latest)   |   [Alfred Gallery](https://alfred.app/workflows/floatingpoint/icon-generator/)
 
 
 ## Dependencies: 
