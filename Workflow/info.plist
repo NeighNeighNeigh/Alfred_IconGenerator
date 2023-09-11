@@ -6,11 +6,23 @@
 	<string>neigh.alfred.icon_generator</string>
 	<key>connections</key>
 	<dict>
-		<key>0C193D95-D63C-4AE9-A23C-6A05088FAB65</key>
+		<key>029F3070-B55D-4A1D-A2B3-8EF75B13421F</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>C4B6F70E-2BF5-47E8-9116-FA95E71931AA</string>
+				<string>14A5240F-C023-445D-A08B-211F7D92121F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>4CF711AD-8D76-44E8-9102-28E91CD3CD0B</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>ADD1A137-8B4B-4EFB-AF24-2899F98A95D2</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -19,10 +31,137 @@
 				<false/>
 			</dict>
 		</array>
-		<key>26D2696E-1778-488C-A6C6-F359D94F221E</key>
-		<array/>
+		<key>0F112DB8-4F31-4419-B64F-4D2F22C5CE9E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DBDC800C-892D-4517-833A-8ABC465E948E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>14A5240F-C023-445D-A08B-211F7D92121F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>396BF2BF-6D79-4B0E-8811-012F443313AA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>28436EEC-BCBE-420A-9366-B327D94A1814</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7AEC5654-124E-4EA5-9B6C-AA1AB9BC2F44</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2AF6EB83-6A8A-488B-AB9D-12360650E4F6</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>35D5B2B4-CF89-4A0C-8B33-6DA5CC4DF20F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2B4E492B-764C-4C73-8A11-328F6C462371</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>060CD21A-B296-472F-8FA8-F84CE56AB574</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2CDF706A-DA6A-4E59-BCD2-9C2556317289</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3B30AC28-EEEA-488E-9D0D-5F425B15548B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>DEA52482-40E6-4E85-8B9C-B96806A95F16</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>306B2655-B8A6-48EA-A6E6-1E2204F46CB7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2AF6EB83-6A8A-488B-AB9D-12360650E4F6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>3A3F894D-00E7-4283-8996-3B119ABC6E3D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>28436EEC-BCBE-420A-9366-B327D94A1814</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>4D7F6811-5901-44B6-A4B1-C56E98CC0C99</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>76557CB6-CADE-4EFD-97EE-C519C1511CED</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>4E50EE8A-A0B7-4FEE-93FE-5F0EF7532709</key>
 		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6381E717-93A3-4FC4-92D8-35E161FA7714</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string>Configure appearance of icons</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 			<dict>
 				<key>destinationuid</key>
 				<string>A6E73533-57E0-4781-8F3C-E21CB458E4C5</string>
@@ -34,11 +173,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>4FA4BCF1-5C8D-4966-9E92-83F294E721CA</key>
+		<key>53C7CA30-87EE-4107-99AB-61C2E4B0A93B</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>C4B6F70E-2BF5-47E8-9116-FA95E71931AA</string>
+				<string>AC87F7F8-4F37-4551-9E7C-C0B78DEE104B</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -47,20 +186,7 @@
 				<false/>
 			</dict>
 		</array>
-		<key>5C5DFAFA-B4E7-4A90-990D-B9DB9703F9B8</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>90D69369-CC54-4310-A694-9CEC0C2CD34B</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>73352DE3-1237-455E-86DD-10F058887148</key>
+		<key>59FFA607-2846-4AA2-A124-9F64C28235C5</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
@@ -73,23 +199,239 @@
 				<false/>
 			</dict>
 		</array>
-		<key>90D69369-CC54-4310-A694-9CEC0C2CD34B</key>
+		<key>5B12AB9D-AA76-4239-9AC3-3E23B5FFFE24</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>0C193D95-D63C-4AE9-A23C-6A05088FAB65</string>
+				<string>C39C186A-9E22-4B02-A8E7-795B3D83F82D</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
-				<key>sourceoutputuid</key>
-				<string>CE6EE70E-280C-4B94-89C7-4FC11027C401</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>5C5DFAFA-B4E7-4A90-990D-B9DB9703F9B8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>029F3070-B55D-4A1D-A2B3-8EF75B13421F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6381E717-93A3-4FC4-92D8-35E161FA7714</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A6E73533-57E0-4781-8F3C-E21CB458E4C5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7176BEA1-7AF6-481A-B04F-D1F0854D6BC7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2AF6EB83-6A8A-488B-AB9D-12360650E4F6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>73352DE3-1237-455E-86DD-10F058887148</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>59FFA607-2846-4AA2-A124-9F64C28235C5</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string>Configure appearance of icons</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>4FA4BCF1-5C8D-4966-9E92-83F294E721CA</string>
+				<string>5C5DFAFA-B4E7-4A90-990D-B9DB9703F9B8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>76557CB6-CADE-4EFD-97EE-C519C1511CED</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0F112DB8-4F31-4419-B64F-4D2F22C5CE9E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>79248429-2E61-4DBF-B5C8-D92DBFE16586</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F29DB020-E6BD-4876-8E0C-26A9877DD1C2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7AEC5654-124E-4EA5-9B6C-AA1AB9BC2F44</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>00F10721-43D4-40FD-9314-A3EB924BCFE0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>98D8E2E6-7A14-44F1-992C-274620F8E258</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>EFA6895F-9D07-484D-BF29-75EE2B9873B3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7E62E27C-8A4A-456E-8991-E85D30917869</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>060CD21A-B296-472F-8FA8-F84CE56AB574</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>83240BF3-7852-428A-81DA-A62F65211658</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2CDF706A-DA6A-4E59-BCD2-9C2556317289</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>C1A96D94-AF93-433A-B218-B353BA33E1BF</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>7176BEA1-7AF6-481A-B04F-D1F0854D6BC7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>4D902882-9E61-4EC8-896A-26E163E03D01</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>306B2655-B8A6-48EA-A6E6-1E2204F46CB7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>F1C36AFD-EABB-43C4-9C57-7B2D5FB5067D</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>79248429-2E61-4DBF-B5C8-D92DBFE16586</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>17779AC3-102E-43C0-ABBC-ABF16C0430D3</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>E4E00064-6141-4E70-B0CD-F8FE19C44ACB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>0569A037-B4DA-4972-B2BA-D6D9C14806F2</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>85CB9C50-C573-4740-91E9-A1CE2E113117</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DA61D3A2-976B-407E-B752-DBA5447F6274</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>99745CA9-3E6B-4D75-95CE-9F51AF1E6CBF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F856ED1E-689A-4536-A5A0-35E8EAAA5EE5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A0F7228F-3AF9-471C-947A-EBAE7C94420C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F856ED1E-689A-4536-A5A0-35E8EAAA5EE5</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -102,7 +444,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>90D69369-CC54-4310-A694-9CEC0C2CD34B</string>
+				<string>029F3070-B55D-4A1D-A2B3-8EF75B13421F</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -111,11 +453,266 @@
 				<false/>
 			</dict>
 		</array>
-		<key>C4B6F70E-2BF5-47E8-9116-FA95E71931AA</key>
+		<key>AC87F7F8-4F37-4551-9E7C-C0B78DEE104B</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>26D2696E-1778-488C-A6C6-F359D94F221E</string>
+				<string>314177DC-6BA0-4510-92BE-451C74FC6496</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>ADD1A137-8B4B-4EFB-AF24-2899F98A95D2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A0F7228F-3AF9-471C-947A-EBAE7C94420C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>69C95243-FAD3-4554-A02E-E3E11D3C02B7</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>99745CA9-3E6B-4D75-95CE-9F51AF1E6CBF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C2858A82-B228-464A-9D5B-9C692F769CDC</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>AC87F7F8-4F37-4551-9E7C-C0B78DEE104B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C39C186A-9E22-4B02-A8E7-795B3D83F82D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F2CED950-18E4-4714-8B51-C280012DF8BD</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>82BD228E-72A0-49EC-AB14-43C5422F3CE7</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>3A3F894D-00E7-4283-8996-3B119ABC6E3D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>C77CF866-5BB7-4F45-8022-8B4E27B234CC</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>EDE2383D-B36D-4BA9-A7FA-0D3BB869D8BD</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D6BF1098-3169-4D5B-BBA9-DBD7F6A4D138</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DF5EB554-E73F-410A-83FE-59C299493C6D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>DA61D3A2-976B-407E-B752-DBA5447F6274</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>53C7CA30-87EE-4107-99AB-61C2E4B0A93B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>DBDC800C-892D-4517-833A-8ABC465E948E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>83240BF3-7852-428A-81DA-A62F65211658</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>DE724F31-C36C-4B2E-A900-A39D4B1E3F02</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D6BF1098-3169-4D5B-BBA9-DBD7F6A4D138</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>DF5EB554-E73F-410A-83FE-59C299493C6D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C2858A82-B228-464A-9D5B-9C692F769CDC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E4E00064-6141-4E70-B0CD-F8FE19C44ACB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F29DB020-E6BD-4876-8E0C-26A9877DD1C2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E8E25D44-5E74-4492-8C4A-51A4573F8BFB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>85CB9C50-C573-4740-91E9-A1CE2E113117</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>EDE2383D-B36D-4BA9-A7FA-0D3BB869D8BD</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E8E25D44-5E74-4492-8C4A-51A4573F8BFB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>EB6CDBC1-7955-407E-B460-94F8E9A7DD25</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>DE724F31-C36C-4B2E-A900-A39D4B1E3F02</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>F4AAADF4-0B3F-4B49-AD11-7FB5557A8A97</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>EFA6895F-9D07-484D-BF29-75EE2B9873B3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7E62E27C-8A4A-456E-8991-E85D30917869</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F29DB020-E6BD-4876-8E0C-26A9877DD1C2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2B4E492B-764C-4C73-8A11-328F6C462371</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string>Remove Swatch</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>5B12AB9D-AA76-4239-9AC3-3E23B5FFFE24</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F462E9D8-4B2B-4A3A-BBFA-ECCBEEE96B14</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>ADD1A137-8B4B-4EFB-AF24-2899F98A95D2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F856ED1E-689A-4536-A5A0-35E8EAAA5EE5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>93CA6DBA-4A5E-4411-B779-A0B18FF2EB4C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -128,7 +725,7 @@
 	<key>createdby</key>
 	<string>Nathan</string>
 	<key>description</key>
-	<string>Generate icon from a SF Symbol</string>
+	<string>Generate icons from emoji or SF Symbols</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -138,14 +735,1229 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string></string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>delete_swatch.py</string>
+				<key>type</key>
+				<integer>8</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>2B4E492B-764C-4C73-8A11-328F6C462371</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>Swatch Picker</string>
+				<key>passinputasargument</key>
+				<false/>
+				<key>passvariables</key>
+				<true/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>060CD21A-B296-472F-8FA8-F84CE56AB574</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>Return to icon generation</string>
+				<key>passinputasargument</key>
+				<true/>
+				<key>passvariables</key>
+				<true/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>3B30AC28-EEEA-488E-9D0D-5F425B15548B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:creating_icon}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>5</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>return to icon creation</string>
+						<key>uid</key>
+						<string>DEA52482-40E6-4E85-8B9C-B96806A95F16</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>finished</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>2CDF706A-DA6A-4E59-BCD2-9C2556317289</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>Options Menu</string>
+				<key>passinputasargument</key>
+				<false/>
+				<key>passvariables</key>
+				<true/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>F2CED950-18E4-4714-8B51-C280012DF8BD</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>Options Menu</string>
+				<key>passinputasargument</key>
+				<false/>
+				<key>passvariables</key>
+				<true/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>00F10721-43D4-40FD-9314-A3EB924BCFE0</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>// Set the main variable in Configuration Sheet
+
+ObjC.import('stdlib');
+Application('com.runningwithcrayons.Alfred').setConfiguration('useBg', {
+    toValue: $.getenv("useBg"),
+    inWorkflow: $.getenv('alfred_workflow_bundleid'),
+    exportable: true
+});</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>2AF6EB83-6A8A-488B-AB9D-12360650E4F6</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>Generate Preview</string>
+				<key>passinputasargument</key>
+				<false/>
+				<key>passvariables</key>
+				<true/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>35D5B2B4-CF89-4A0C-8B33-6DA5CC4DF20F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>1</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>useBg</key>
+					<string>1</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>7176BEA1-7AF6-481A-B04F-D1F0854D6BC7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>0</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>useBg</key>
+					<string>0</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>306B2655-B8A6-48EA-A6E6-1E2204F46CB7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>done</string>
+						<key>outputlabel</key>
+						<string>Done</string>
+						<key>uid</key>
+						<string>C1A96D94-AF93-433A-B218-B353BA33E1BF</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>bg_no</string>
+						<key>outputlabel</key>
+						<string>Toggle BG on</string>
+						<key>uid</key>
+						<string>4D902882-9E61-4EC8-896A-26E163E03D01</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>bg_yes</string>
+						<key>outputlabel</key>
+						<string>Toggle BG off</string>
+						<key>uid</key>
+						<string>F1C36AFD-EABB-43C4-9C57-7B2D5FB5067D</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>choose_fg</string>
+						<key>outputlabel</key>
+						<string>Choose FG Colour</string>
+						<key>uid</key>
+						<string>17779AC3-102E-43C0-ABBC-ABF16C0430D3</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>choose_bg</string>
+						<key>outputlabel</key>
+						<string>Choose BG Colour</string>
+						<key>uid</key>
+						<string>0569A037-B4DA-4972-B2BA-D6D9C14806F2</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>83240BF3-7852-428A-81DA-A62F65211658</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>if [ "$useBg" = 1 ]; then
+  convert -background $bg_colour -font /Library/Fonts/$fontWeight -fill $fg_colour -gravity "center" -size "256x256" caption:"$glyph" +repage -depth 8 "DBDC800C-892D-4517-833A-8ABC465E948E.png"
+  convert "DBDC800C-892D-4517-833A-8ABC465E948E.png" -bordercolor $bg_colour -border 5% -resize "256x256" "DBDC800C-892D-4517-833A-8ABC465E948E.png"
+  convert "DBDC800C-892D-4517-833A-8ABC465E948E.png" -matte $bgRoundness -compose DstIn -composite "DBDC800C-892D-4517-833A-8ABC465E948E.png"
+  convert "DBDC800C-892D-4517-833A-8ABC465E948E.png" -matte -bordercolor none -border "$margin_percent"% "DBDC800C-892D-4517-833A-8ABC465E948E.png"
+else
+  convert -background none -font /Library/Fonts/$fontWeight -fill $fg_colour -gravity "center" -size "256x256" caption:"$glyph" +repage -depth 8 "DBDC800C-892D-4517-833A-8ABC465E948E.png"
+  convert "DBDC800C-892D-4517-833A-8ABC465E948E.png" -matte -bordercolor none -border "$margin_percent"% "DBDC800C-892D-4517-833A-8ABC465E948E.png"
+fi
+
+cp -f DBDC800C-892D-4517-833A-8ABC465E948E.png F29DB020-E6BD-4876-8E0C-26A9877DD1C2.png</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>inboundconfig</key>
+			<dict>
+				<key>externalid</key>
+				<string>Options Menu - First Run</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>0F112DB8-4F31-4419-B64F-4D2F22C5CE9E</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>icon generator</string>
+				<string>123</string>
 				<key>subtext</key>
-				<string>Ensure a symbol is on your clipboard</string>
+				<string>Configure appearance settings</string>
 				<key>text</key>
-				<string>Generate icon from SF Symbol</string>
+				<string>Icon Generator Config</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>4D7F6811-5901-44B6-A4B1-C56E98CC0C99</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>import json
+import os
+
+json_data = '''
+{
+    "items": [
+        {
+            "title": "Done",
+            "arg": "done",
+            "icon": {
+                "path": "icons/bg_colour.png"
+            }
+        },
+        {
+            "title": "Foreground Colour",
+            "arg": "choose_fg",
+            "icon": {
+                "path": "icons/fg_colour.png"
+            }
+        },
+        {
+            "title": "Background Colour",
+            "arg": "choose_bg",
+            "icon": {
+                "path": "icons/bg_colour.png"
+            }
+        },
+        {
+            "title": "Enable Background",
+            "arg": "choose_bg",
+            "icon": {
+                "path": "icons/bg_colour.png"
+            }
+        }
+    ]
+}
+'''
+
+icon_paths = {
+    "Foreground Colour": os.path.join(os.getenv("alfred_workflow_data"), "swatch_icons/foreground.png"),
+    "Background Colour": os.path.join(os.getenv("alfred_workflow_data"), "swatch_icons/background.png"),
+    "Done": "done.png"
+}
+
+data = json.loads(json_data)
+
+for item in data['items']:
+    title = item['title']
+    if title in icon_paths:
+        item['icon']['path'] = icon_paths[title]
+
+new_json_data = json.dumps(data, indent=4)
+
+print(new_json_data)
+</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>options_menu.py</string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string></string>
+				<key>type</key>
+				<integer>8</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>inboundconfig</key>
+			<dict>
+				<key>externalid</key>
+				<string>Options Menu</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>DBDC800C-892D-4517-833A-8ABC465E948E</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>function chooseColor() {
+    try {
+        let app = Application.currentApplication();
+        app.includeStandardAdditions = true;
+
+        // Open the color picker with a default color of red
+        let color = app.chooseColor({defaultColor: [1, 0, 0]});
+
+        // Convert the normalized color values (0-1) to 8-bit RGB values (0-255)
+        let r = Math.round(color[0] * 255);
+        let g = Math.round(color[1] * 255);
+        let b = Math.round(color[2] * 255);
+
+        // Convert RGB values to HEX
+        return rgbToHex(r, g, b);
+    } catch (error) {
+        return "no_swatch";
+    }
+}
+
+function rgbToHex(r, g, b) {
+    return ((1 &lt;&lt; 24) + (r &lt;&lt; 16) + (g &lt;&lt; 8) + b).toString(16).slice(1).toUpperCase();
+}
+
+chooseColor();</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>3A3F894D-00E7-4283-8996-3B119ABC6E3D</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string></string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>add_swatch.py</string>
+				<key>type</key>
+				<integer>8</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>EFA6895F-9D07-484D-BF29-75EE2B9873B3</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>colour=$1
+hex_colour="#$colour"
+save_path="${alfred_workflow_data}/swatch_icons/$1.png"
+
+convert -size 256x256 xc:$hex_colour "$save_path"
+
+# use an existing image to cut out the alpha
+convert $save_path -matte $bgRoundness \
+  -compose DstIn -composite "$save_path"
+
+# add some margin around the whole icon
+convert $save_path -matte -bordercolor none -border "$margin_percent"% "$save_path"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>7E62E27C-8A4A-456E-8991-E85D30917869</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>no_swatch</string>
+						<key>outputlabel</key>
+						<string>cancelled</string>
+						<key>uid</key>
+						<string>98D8E2E6-7A14-44F1-992C-274620F8E258</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>continue</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>7AEC5654-124E-4EA5-9B6C-AA1AB9BC2F44</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>glyph</key>
+					<string>􀊵</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>76557CB6-CADE-4EFD-97EE-C519C1511CED</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.transform</string>
+			<key>uid</key>
+			<string>28436EEC-BCBE-420A-9366-B327D94A1814</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>adjusting_bg</key>
+					<string>false</string>
+					<key>adjusting_fg</key>
+					<string>true</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>79248429-2E61-4DBF-B5C8-D92DBFE16586</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>import json
+import os
+
+alfred_workflow_data = os.getenv("alfred_workflow_data")
+alfred_preferences = os.getenv("alfred_preferences")
+alfred_workflow_uid = os.getenv("alfred_workflow_uid")
+filename = "swatch.json"
+
+# Set defaults path
+defaults_path = os.path.join(alfred_preferences, "workflows", alfred_workflow_uid, "defaults")
+
+# Set input path
+input_path = os.path.join(alfred_workflow_data, filename)
+
+# Read the JSON file
+with open(input_path) as file:
+    input_json = json.load(file)
+
+# Add workflow data path to the beginning of every icon path
+for item in input_json["items"]:
+    item["icon"]["path"] = alfred_workflow_data + "/swatch_icons/" + item["icon"]["path"]
+
+json_data = json.dumps(input_json, indent=4)
+
+print(json_data)
+</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>swatch_picker.py</string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string></string>
+				<key>type</key>
+				<integer>8</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>inboundconfig</key>
+			<dict>
+				<key>externalid</key>
+				<string>Swatch Picker</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>F29DB020-E6BD-4876-8E0C-26A9877DD1C2</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>back</string>
+						<key>outputlabel</key>
+						<string>Back</string>
+						<key>uid</key>
+						<string>82BD228E-72A0-49EC-AB14-43C5422F3CE7</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>new_swatch</string>
+						<key>outputlabel</key>
+						<string>Add swatch</string>
+						<key>uid</key>
+						<string>C77CF866-5BB7-4F45-8022-8B4E27B234CC</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Set Colour</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>C39C186A-9E22-4B02-A8E7-795B3D83F82D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>adjusting_bg</key>
+					<string>true</string>
+					<key>adjusting_fg</key>
+					<string>false</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>E4E00064-6141-4E70-B0CD-F8FE19C44ACB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<true/>
+				<key>variables</key>
+				<dict>
+					<key>selected_colour</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>5B12AB9D-AA76-4239-9AC3-3E23B5FFFE24</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>// Set the main variable in Configuration Sheet
+
+ObjC.import('stdlib');
+Application('com.runningwithcrayons.Alfred').setConfiguration('fg_colour', {
+    toValue: $.getenv('selected_colour'),
+    inWorkflow: $.getenv('alfred_workflow_bundleid'),
+    exportable: true
+});
+
+
+// output selected_colour without the '#' for use in next workflow objects
+$.getenv('selected_colour').replace(/#/g, "");</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>85CB9C50-C573-4740-91E9-A1CE2E113117</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>colour=$1
+hex_colour="#$colour"
+save_path="${alfred_workflow_data}/swatch_icons/foreground.png"
+
+convert -size 256x256 xc:$hex_colour "$save_path"
+
+# use an existing image to cut out the alpha
+convert $save_path -matte $bgRoundness \
+  -compose DstIn -composite "$save_path"
+
+# add some margin around the whole icon
+convert $save_path -matte -bordercolor none -border "$margin_percent"% "$save_path"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>53C7CA30-87EE-4107-99AB-61C2E4B0A93B</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>fg_colour</key>
+					<string>{var:selected_colour}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>E8E25D44-5E74-4492-8C4A-51A4573F8BFB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.transform</string>
+			<key>uid</key>
+			<string>DA61D3A2-976B-407E-B752-DBA5447F6274</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:adjusting_fg}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>5</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Adjust FG</string>
+						<key>uid</key>
+						<string>EB6CDBC1-7955-407E-B460-94F8E9A7DD25</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:adjusting_bg}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>5</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Adjust BG</string>
+						<key>uid</key>
+						<string>F4AAADF4-0B3F-4B49-AD11-7FB5557A8A97</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>error</string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>EDE2383D-B36D-4BA9-A7FA-0D3BB869D8BD</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>Options Menu</string>
+				<key>passinputasargument</key>
+				<false/>
+				<key>passvariables</key>
+				<true/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>314177DC-6BA0-4510-92BE-451C74FC6496</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>if [ "$useBg" = 1 ]; then
+  convert -background $bg_colour -font /Library/Fonts/$fontWeight -fill $fg_colour -gravity "center" -size "256x256" caption:"$glyph" +repage -depth 8 "DBDC800C-892D-4517-833A-8ABC465E948E.png"
+  convert "DBDC800C-892D-4517-833A-8ABC465E948E.png" -bordercolor $bg_colour -border 5% -resize "256x256" "DBDC800C-892D-4517-833A-8ABC465E948E.png"
+  convert "DBDC800C-892D-4517-833A-8ABC465E948E.png" -matte $bgRoundness -compose DstIn -composite "DBDC800C-892D-4517-833A-8ABC465E948E.png"
+  convert "DBDC800C-892D-4517-833A-8ABC465E948E.png" -matte -bordercolor none -border "$margin_percent"% "DBDC800C-892D-4517-833A-8ABC465E948E.png"
+else
+  convert -background none -font /Library/Fonts/$fontWeight -fill $fg_colour -gravity "center" -size "256x256" caption:"$glyph" +repage -depth 8 "DBDC800C-892D-4517-833A-8ABC465E948E.png"
+  convert "DBDC800C-892D-4517-833A-8ABC465E948E.png" -matte -bordercolor none -border "$margin_percent"% "DBDC800C-892D-4517-833A-8ABC465E948E.png"
+fi
+
+cp -f DBDC800C-892D-4517-833A-8ABC465E948E.png F29DB020-E6BD-4876-8E0C-26A9877DD1C2.png</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
+			</dict>
+			<key>inboundconfig</key>
+			<dict>
+				<key>externalid</key>
+				<string>Generate Preview</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>AC87F7F8-4F37-4551-9E7C-C0B78DEE104B</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>DE963BBD-2746-4B51-972A-667480E5B834</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>// Set the main variable in Configuration Sheet
+
+ObjC.import('stdlib');
+Application('com.runningwithcrayons.Alfred').setConfiguration('bg_colour', {
+    toValue: $.getenv('selected_colour'),
+    inWorkflow: $.getenv('alfred_workflow_bundleid'),
+    exportable: true
+});
+
+// output selected_colour without the '#' for use in next workflow objects
+$.getenv('selected_colour').replace(/#/g, "");</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>D6BF1098-3169-4D5B-BBA9-DBD7F6A4D138</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>colour=$1
+hex_colour="#$colour"
+save_path="${alfred_workflow_data}/swatch_icons/background.png"
+
+convert -size 256x256 xc:$hex_colour "$save_path"
+
+# use an existing image to cut out the alpha
+convert $save_path -matte $bgRoundness \
+  -compose DstIn -composite "$save_path"
+
+# add some margin around the whole icon
+convert $save_path -matte -bordercolor none -border "$margin_percent"% "$save_path"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>C2858A82-B228-464A-9D5B-9C692F769CDC</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>bg_colour</key>
+					<string>{var:selected_colour}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>DE724F31-C36C-4B2E-A900-A39D4B1E3F02</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.transform</string>
+			<key>uid</key>
+			<string>DF5EB554-E73F-410A-83FE-59C299493C6D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
+				<key>triggerid</key>
+				<string>Return to icon generation</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>F462E9D8-4B2B-4A3A-BBFA-ECCBEEE96B14</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>creating_icon</key>
+					<string>true</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>14A5240F-C023-445D-A08B-211F7D92121F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>Options Menu - First Run</string>
+				<key>passinputasargument</key>
+				<false/>
+				<key>passvariables</key>
+				<true/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>396BF2BF-6D79-4B0E-8811-012F443313AA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>options</key>
+					<string>1</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>59FFA607-2846-4AA2-A124-9F64C28235C5</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>Icon Generator</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Icon Generator</string>
 				<key>withspace</key>
 				<false/>
 			</dict>
@@ -164,22 +1976,18 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>query="$1"
-convert -background $bgColour -font /Library/Fonts/SF-Pro-Display-Bold.otf -fill $colour -gravity "center" -size "256x256" caption:"$query" +repage -depth 8 "$output"
-
-convert $output -matte mask.png \
-  -compose DstIn -composite "$output"</string>
+				<string>python3 emoji_to_png.py "$glyph" "$output"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string></string>
+				<string>emoji_to_png.py</string>
 				<key>type</key>
-				<integer>5</integer>
+				<integer>8</integer>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>0C193D95-D63C-4AE9-A23C-6A05088FAB65</string>
+			<string>A0F7228F-3AF9-471C-947A-EBAE7C94420C</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -187,11 +1995,13 @@ convert $output -matte mask.png \
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>{clipboard}</string>
+				<string></string>
 				<key>passthroughargument</key>
 				<false/>
 				<key>variables</key>
 				<dict>
+					<key>glyph</key>
+					<string>{clipboard}</string>
 					<key>output</key>
 					<string>{var:location}/{random:UUID}.png</string>
 				</dict>
@@ -223,7 +2033,7 @@ set the clipboard to (read (POSIX file output) as  {«class PNGf»})</string>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>26D2696E-1778-488C-A6C6-F359D94F221E</string>
+			<string>93CA6DBA-4A5E-4411-B779-A0B18FF2EB4C</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -234,7 +2044,7 @@ set the clipboard to (read (POSIX file output) as  {«class PNGf»})</string>
 				<array>
 					<dict>
 						<key>inputstring</key>
-						<string>{var:useBg}</string>
+						<string>{var:options}</string>
 						<key>matchcasesensitive</key>
 						<false/>
 						<key>matchmode</key>
@@ -242,20 +2052,52 @@ set the clipboard to (read (POSIX file output) as  {«class PNGf»})</string>
 						<key>matchstring</key>
 						<string></string>
 						<key>outputlabel</key>
-						<string>Yes Background</string>
+						<string>Show Options</string>
 						<key>uid</key>
-						<string>CE6EE70E-280C-4B94-89C7-4FC11027C401</string>
+						<string>4CF711AD-8D76-44E8-9102-28E91CD3CD0B</string>
 					</dict>
 				</array>
 				<key>elselabel</key>
-				<string>No background</string>
+				<string>Continue</string>
 				<key>hideelse</key>
 				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
 			<key>uid</key>
-			<string>90D69369-CC54-4310-A694-9CEC0C2CD34B</string>
+			<string>029F3070-B55D-4A1D-A2B3-8EF75B13421F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:glyph}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>4</integer>
+						<key>matchstring</key>
+						<string>\p{Extended_Pictographic}</string>
+						<key>outputlabel</key>
+						<string>is Emoji</string>
+						<key>uid</key>
+						<string>69C95243-FAD3-4554-A02E-E3E11D3C02B7</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>not Emoji</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>ADD1A137-8B4B-4EFB-AF24-2899F98A95D2</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -268,7 +2110,27 @@ set the clipboard to (read (POSIX file output) as  {«class PNGf»})</string>
 			<key>type</key>
 			<string>alfred.workflow.utility.delay</string>
 			<key>uid</key>
-			<string>C4B6F70E-2BF5-47E8-9116-FA95E71931AA</string>
+			<string>F856ED1E-689A-4536-A5A0-35E8EAAA5EE5</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>options</key>
+					<string>1</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>6381E717-93A3-4FC4-92D8-35E161FA7714</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -280,19 +2142,26 @@ set the clipboard to (read (POSIX file output) as  {«class PNGf»})</string>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>query="$1"
-convert -background none -font /Library/Fonts/SF-Pro-Display-Bold.otf -fill $colour -gravity "center" -size "256x256" caption:"$query" +repage -depth 8 "$output"</string>
+				<string>if [ "$useBg" = 1 ]; then
+  convert -background $bg_colour -font /Library/Fonts/$fontWeight -fill $fg_colour -gravity "center" -size "256x256" caption:"$glyph" +repage -depth 8 "$output"
+  convert $output -bordercolor $bg_colour -border 5% -resize "256x256" "$output"
+  convert $output -matte $bgRoundness -compose DstIn -composite "$output"
+  convert $output -matte -bordercolor none -border "$margin_percent"% "$output"
+else
+  convert -background none -font /Library/Fonts/$fontWeight -fill $fg_colour -gravity "center" -size "256x256" caption:"$glyph" +repage -depth 8 "$output"
+  convert $output -matte -bordercolor none -border "$margin_percent"% "$output"
+fi</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>type</key>
-				<integer>5</integer>
+				<integer>11</integer>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>4FA4BCF1-5C8D-4966-9E92-83F294E721CA</string>
+			<string>99745CA9-3E6B-4D75-95CE-9F51AF1E6CBF</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -326,6 +2195,8 @@ convert -background none -font /Library/Fonts/SF-Pro-Display-Bold.otf -fill $col
 				<true/>
 				<key>variables</key>
 				<dict>
+					<key>glyph</key>
+					<string>{query}</string>
 					<key>output</key>
 					<string>{var:location}/{random:UUID}.png</string>
 				</dict>
@@ -339,87 +2210,458 @@ convert -background none -font /Library/Fonts/SF-Pro-Display-Bold.otf -fill $col
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>This workflow will convert a single SF Symbol to an icon (png file) and place it on the clipboard. Handy for adding icons in your workflows. 
+	<string># Alfred Icon Generator
+This workflow will convert a single Emoji or SF Symbol to an icon (png file) and place it on the clipboard. Handy for adding icons in your Alfred workflows. 
 
-Dependencies: 
-Must install ImageMagick first - brew install imagemagick
-Must install SF-Pro-Display-Bold.otf from Apple - https://devimages-cdn.apple.com/design/resources/download/SF-Pro.dmg
+## Dependencies: 
+SF Symbols - https://developer.apple.com/sf-symbols/
+ImageMagick
+Pillow (for Python)
 
-You can configure the icon colour, adjust background settings as well as define the location on disk where icons are generated (defaults to /tmp) 
+## Configuration
+In the workflow's configuration you can adjust the SF Symbol weight, colour and background settings, as well as define the location on disk where icons are generated (defaults to /tmp) 
 
-There's 2 ways to run the workflow: Through the clipboard or through Alfred's Universal Actions.
+## There's 2 ways to run the workflow
 
 1. Clipboard method
-Copy a single symbol to the clipboard then run the trigger. tada, your clipboard now has your new icon on it.
+Copy either a single symbol from SF symbols, or a single emoji to the clipboard. Now run the trigger. The workflow has converted the source into a png image and copied it to your clipboard - ready to paste into any icon field within Alfred (or wherever you like).
 
 2. Universal Action method
-Select a single symbol and execute the workflow through Alfred's univeral action feature. Again, tada.
+Select a single symbol / emoji and execute the workflow through Alfred's univeral action feature.
 
-This workflow was adapted from work by Mark Gavin - https://labs.appligent.com/pdfblog/convert-sf-symbols-to-images/</string>
+
+## Acknowledgements
+
+The SF Symbols portion of this workflow was adapted from work by Mark Gavin - https://labs.appligent.com/pdfblog/convert-sf-symbols-to-images/
+
+This wouldn't be possible without the help of user Vitor from the Alfred forum.</string>
 	<key>uidata</key>
 	<dict>
-		<key>0C193D95-D63C-4AE9-A23C-6A05088FAB65</key>
+		<key>00F10721-43D4-40FD-9314-A3EB924BCFE0</key>
 		<dict>
 			<key>xpos</key>
-			<real>750</real>
+			<real>2145</real>
 			<key>ypos</key>
-			<real>285</real>
+			<real>295</real>
 		</dict>
-		<key>26D2696E-1778-488C-A6C6-F359D94F221E</key>
+		<key>029F3070-B55D-4A1D-A2B3-8EF75B13421F</key>
 		<dict>
 			<key>xpos</key>
-			<real>1180</real>
+			<real>565</real>
 			<key>ypos</key>
-			<real>365</real>
+			<real>1040</real>
+		</dict>
+		<key>060CD21A-B296-472F-8FA8-F84CE56AB574</key>
+		<dict>
+			<key>xpos</key>
+			<real>2490</real>
+			<key>ypos</key>
+			<real>80</real>
+		</dict>
+		<key>0F112DB8-4F31-4419-B64F-4D2F22C5CE9E</key>
+		<dict>
+			<key>note</key>
+			<string>Update icons</string>
+			<key>xpos</key>
+			<real>515</real>
+			<key>ypos</key>
+			<real>395</real>
+		</dict>
+		<key>14A5240F-C023-445D-A08B-211F7D92121F</key>
+		<dict>
+			<key>note</key>
+			<string>Flag that we are 
+creating an icon
+so should return here</string>
+			<key>xpos</key>
+			<real>735</real>
+			<key>ypos</key>
+			<real>895</real>
+		</dict>
+		<key>28436EEC-BCBE-420A-9366-B327D94A1814</key>
+		<dict>
+			<key>xpos</key>
+			<real>1975</real>
+			<key>ypos</key>
+			<real>430</real>
+		</dict>
+		<key>2AF6EB83-6A8A-488B-AB9D-12360650E4F6</key>
+		<dict>
+			<key>note</key>
+			<string>Set environment variable</string>
+			<key>xpos</key>
+			<real>1245</real>
+			<key>ypos</key>
+			<real>320</real>
+		</dict>
+		<key>2B4E492B-764C-4C73-8A11-328F6C462371</key>
+		<dict>
+			<key>note</key>
+			<string>Delete entry</string>
+			<key>xpos</key>
+			<real>1840</real>
+			<key>ypos</key>
+			<real>80</real>
+		</dict>
+		<key>2CDF706A-DA6A-4E59-BCD2-9C2556317289</key>
+		<dict>
+			<key>xpos</key>
+			<real>1185</real>
+			<key>ypos</key>
+			<real>190</real>
+		</dict>
+		<key>306B2655-B8A6-48EA-A6E6-1E2204F46CB7</key>
+		<dict>
+			<key>xpos</key>
+			<real>1175</real>
+			<key>ypos</key>
+			<real>375</real>
+		</dict>
+		<key>314177DC-6BA0-4510-92BE-451C74FC6496</key>
+		<dict>
+			<key>xpos</key>
+			<real>2495</real>
+			<key>ypos</key>
+			<real>670</real>
+		</dict>
+		<key>35D5B2B4-CF89-4A0C-8B33-6DA5CC4DF20F</key>
+		<dict>
+			<key>xpos</key>
+			<real>1395</real>
+			<key>ypos</key>
+			<real>320</real>
+		</dict>
+		<key>396BF2BF-6D79-4B0E-8811-012F443313AA</key>
+		<dict>
+			<key>xpos</key>
+			<real>815</real>
+			<key>ypos</key>
+			<real>895</real>
+		</dict>
+		<key>3A3F894D-00E7-4283-8996-3B119ABC6E3D</key>
+		<dict>
+			<key>note</key>
+			<string>System 
+Colour Picker</string>
+			<key>xpos</key>
+			<real>1840</real>
+			<key>ypos</key>
+			<real>400</real>
+		</dict>
+		<key>3B30AC28-EEEA-488E-9D0D-5F425B15548B</key>
+		<dict>
+			<key>xpos</key>
+			<real>1395</real>
+			<key>ypos</key>
+			<real>155</real>
+		</dict>
+		<key>4D7F6811-5901-44B6-A4B1-C56E98CC0C99</key>
+		<dict>
+			<key>xpos</key>
+			<real>100</real>
+			<key>ypos</key>
+			<real>395</real>
 		</dict>
 		<key>4E50EE8A-A0B7-4FEE-93FE-5F0EF7532709</key>
 		<dict>
 			<key>xpos</key>
-			<real>75</real>
+			<real>115</real>
 			<key>ypos</key>
-			<real>445</real>
+			<real>1105</real>
 		</dict>
-		<key>4FA4BCF1-5C8D-4966-9E92-83F294E721CA</key>
+		<key>53C7CA30-87EE-4107-99AB-61C2E4B0A93B</key>
+		<dict>
+			<key>note</key>
+			<string>Generate
+FG swatch preview</string>
+			<key>xpos</key>
+			<real>2145</real>
+			<key>ypos</key>
+			<real>585</real>
+		</dict>
+		<key>59FFA607-2846-4AA2-A124-9F64C28235C5</key>
 		<dict>
 			<key>xpos</key>
-			<real>755</real>
+			<real>280</real>
 			<key>ypos</key>
-			<real>415</real>
+			<real>915</real>
+		</dict>
+		<key>5B12AB9D-AA76-4239-9AC3-3E23B5FFFE24</key>
+		<dict>
+			<key>xpos</key>
+			<real>1550</real>
+			<key>ypos</key>
+			<real>545</real>
 		</dict>
 		<key>5C5DFAFA-B4E7-4A90-990D-B9DB9703F9B8</key>
 		<dict>
 			<key>xpos</key>
+			<real>375</real>
+			<key>ypos</key>
+			<real>970</real>
+		</dict>
+		<key>6381E717-93A3-4FC4-92D8-35E161FA7714</key>
+		<dict>
+			<key>xpos</key>
 			<real>285</real>
 			<key>ypos</key>
-			<real>310</real>
+			<real>1070</real>
+		</dict>
+		<key>7176BEA1-7AF6-481A-B04F-D1F0854D6BC7</key>
+		<dict>
+			<key>xpos</key>
+			<real>1175</real>
+			<key>ypos</key>
+			<real>330</real>
 		</dict>
 		<key>73352DE3-1237-455E-86DD-10F058887148</key>
 		<dict>
 			<key>xpos</key>
-			<real>70</real>
+			<real>110</real>
 			<key>ypos</key>
-			<real>280</real>
+			<real>940</real>
 		</dict>
-		<key>90D69369-CC54-4310-A694-9CEC0C2CD34B</key>
+		<key>76557CB6-CADE-4EFD-97EE-C519C1511CED</key>
+		<dict>
+			<key>note</key>
+			<string>Set a preview glyph</string>
+			<key>xpos</key>
+			<real>420</real>
+			<key>ypos</key>
+			<real>425</real>
+		</dict>
+		<key>79248429-2E61-4DBF-B5C8-D92DBFE16586</key>
 		<dict>
 			<key>xpos</key>
-			<real>475</real>
+			<real>1210</real>
+			<key>ypos</key>
+			<real>470</real>
+		</dict>
+		<key>7AEC5654-124E-4EA5-9B6C-AA1AB9BC2F44</key>
+		<dict>
+			<key>xpos</key>
+			<real>2020</real>
+			<key>ypos</key>
+			<real>425</real>
+		</dict>
+		<key>7E62E27C-8A4A-456E-8991-E85D30917869</key>
+		<dict>
+			<key>note</key>
+			<string>Generate 
+swatch preview</string>
+			<key>xpos</key>
+			<real>2280</real>
+			<key>ypos</key>
+			<real>405</real>
+		</dict>
+		<key>83240BF3-7852-428A-81DA-A62F65211658</key>
+		<dict>
+			<key>xpos</key>
+			<real>910</real>
 			<key>ypos</key>
 			<real>385</real>
+		</dict>
+		<key>85CB9C50-C573-4740-91E9-A1CE2E113117</key>
+		<dict>
+			<key>note</key>
+			<string>Set environment variable</string>
+			<key>xpos</key>
+			<real>1970</real>
+			<key>ypos</key>
+			<real>585</real>
+		</dict>
+		<key>93CA6DBA-4A5E-4411-B779-A0B18FF2EB4C</key>
+		<dict>
+			<key>note</key>
+			<string>Put file onto clipboard</string>
+			<key>xpos</key>
+			<real>1760</real>
+			<key>ypos</key>
+			<real>1035</real>
+		</dict>
+		<key>99745CA9-3E6B-4D75-95CE-9F51AF1E6CBF</key>
+		<dict>
+			<key>note</key>
+			<string>Generate Icon 
+with ImageMagick</string>
+			<key>xpos</key>
+			<real>1510</real>
+			<key>ypos</key>
+			<real>1100</real>
+		</dict>
+		<key>A0F7228F-3AF9-471C-947A-EBAE7C94420C</key>
+		<dict>
+			<key>note</key>
+			<string>Generate Emoji Icon 
+with Pillow</string>
+			<key>xpos</key>
+			<real>1510</real>
+			<key>ypos</key>
+			<real>945</real>
 		</dict>
 		<key>A6E73533-57E0-4781-8F3C-E21CB458E4C5</key>
 		<dict>
 			<key>xpos</key>
-			<real>290</real>
+			<real>375</real>
 			<key>ypos</key>
-			<real>475</real>
+			<real>1135</real>
 		</dict>
-		<key>C4B6F70E-2BF5-47E8-9116-FA95E71931AA</key>
+		<key>AC87F7F8-4F37-4551-9E7C-C0B78DEE104B</key>
+		<dict>
+			<key>note</key>
+			<string>Generate icon preview
+Saving this over 
+workflow object icons
+in workflow folder</string>
+			<key>xpos</key>
+			<real>2355</real>
+			<key>ypos</key>
+			<real>670</real>
+		</dict>
+		<key>ADD1A137-8B4B-4EFB-AF24-2899F98A95D2</key>
 		<dict>
 			<key>xpos</key>
+			<real>1285</real>
+			<key>ypos</key>
 			<real>1055</real>
+		</dict>
+		<key>C2858A82-B228-464A-9D5B-9C692F769CDC</key>
+		<dict>
+			<key>note</key>
+			<string>Generate 
+BG swatch preview</string>
+			<key>xpos</key>
+			<real>2145</real>
+			<key>ypos</key>
+			<real>730</real>
+		</dict>
+		<key>C39C186A-9E22-4B02-A8E7-795B3D83F82D</key>
+		<dict>
+			<key>xpos</key>
+			<real>1610</real>
+			<key>ypos</key>
+			<real>520</real>
+		</dict>
+		<key>D6BF1098-3169-4D5B-BBA9-DBD7F6A4D138</key>
+		<dict>
+			<key>note</key>
+			<string>Set environment variable</string>
+			<key>xpos</key>
+			<real>1970</real>
+			<key>ypos</key>
+			<real>730</real>
+		</dict>
+		<key>DA61D3A2-976B-407E-B752-DBA5447F6274</key>
+		<dict>
+			<key>xpos</key>
+			<real>2095</real>
+			<key>ypos</key>
+			<real>615</real>
+		</dict>
+		<key>DBDC800C-892D-4517-833A-8ABC465E948E</key>
+		<dict>
+			<key>note</key>
+			<string>Options Menu
+--- Note --- 
+The icon for this object 
+is being replaced dynamically</string>
+			<key>xpos</key>
+			<real>710</real>
 			<key>ypos</key>
 			<real>395</real>
+		</dict>
+		<key>DE724F31-C36C-4B2E-A900-A39D4B1E3F02</key>
+		<dict>
+			<key>note</key>
+			<string>Force bg_colour to update in session</string>
+			<key>xpos</key>
+			<real>1885</real>
+			<key>ypos</key>
+			<real>760</real>
+		</dict>
+		<key>DE963BBD-2746-4B51-972A-667480E5B834</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>note</key>
+			<string>See note in the script file about also checking for the existence of the icons folder</string>
+			<key>xpos</key>
+			<real>1400</real>
+			<key>ypos</key>
+			<real>675</real>
+		</dict>
+		<key>DF5EB554-E73F-410A-83FE-59C299493C6D</key>
+		<dict>
+			<key>xpos</key>
+			<real>2095</real>
+			<key>ypos</key>
+			<real>760</real>
+		</dict>
+		<key>E4E00064-6141-4E70-B0CD-F8FE19C44ACB</key>
+		<dict>
+			<key>xpos</key>
+			<real>1210</real>
+			<key>ypos</key>
+			<real>530</real>
+		</dict>
+		<key>E8E25D44-5E74-4492-8C4A-51A4573F8BFB</key>
+		<dict>
+			<key>note</key>
+			<string>Force fg_colour to update in session</string>
+			<key>xpos</key>
+			<real>1885</real>
+			<key>ypos</key>
+			<real>615</real>
+		</dict>
+		<key>EDE2383D-B36D-4BA9-A7FA-0D3BB869D8BD</key>
+		<dict>
+			<key>xpos</key>
+			<real>1755</real>
+			<key>ypos</key>
+			<real>670</real>
+		</dict>
+		<key>EFA6895F-9D07-484D-BF29-75EE2B9873B3</key>
+		<dict>
+			<key>note</key>
+			<string>Append entry 
+to JSON</string>
+			<key>xpos</key>
+			<real>2145</real>
+			<key>ypos</key>
+			<real>405</real>
+		</dict>
+		<key>F29DB020-E6BD-4876-8E0C-26A9877DD1C2</key>
+		<dict>
+			<key>note</key>
+			<string>Swatch Picker Menu
+--- Note --- 
+The icon for this object 
+is being replaced dynamically</string>
+			<key>xpos</key>
+			<real>1360</real>
+			<key>ypos</key>
+			<real>490</real>
+		</dict>
+		<key>F2CED950-18E4-4714-8B51-C280012DF8BD</key>
+		<dict>
+			<key>xpos</key>
+			<real>1840</real>
+			<key>ypos</key>
+			<real>240</real>
+		</dict>
+		<key>F462E9D8-4B2B-4A3A-BBFA-ECCBEEE96B14</key>
+		<dict>
+			<key>xpos</key>
+			<real>1080</real>
+			<key>ypos</key>
+			<real>885</real>
+		</dict>
+		<key>F856ED1E-689A-4536-A5A0-35E8EAAA5EE5</key>
+		<dict>
+			<key>xpos</key>
+			<real>1700</real>
+			<key>ypos</key>
+			<real>1065</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
@@ -428,28 +2670,49 @@ This workflow was adapted from work by Mark Gavin - https://labs.appligent.com/p
 			<key>config</key>
 			<dict>
 				<key>default</key>
-				<string>#8BE9FD</string>
+				<string>#1E1F29</string>
 				<key>placeholder</key>
-				<string></string>
+				<string>#1E1F29</string>
 				<key>required</key>
 				<true/>
 				<key>trim</key>
 				<true/>
 			</dict>
 			<key>description</key>
-			<string>Accepts hex: #52f97b or RGB: rgb(82, 249, 123)</string>
+			<string></string>
 			<key>label</key>
-			<string>Colour</string>
+			<string>Foreground Colour</string>
 			<key>type</key>
 			<string>textfield</string>
 			<key>variable</key>
-			<string>colour</string>
+			<string>fg_colour</string>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
 				<key>default</key>
-				<false/>
+				<string>#E2E2E2</string>
+				<key>placeholder</key>
+				<string>#E2E2E2</string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Background Colour</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>bg_colour</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<true/>
 				<key>required</key>
 				<false/>
 				<key>text</key>
@@ -468,22 +2731,107 @@ This workflow was adapted from work by Mark Gavin - https://labs.appligent.com/p
 			<key>config</key>
 			<dict>
 				<key>default</key>
-				<string>#6272A4</string>
+				<string>mask_medium.png</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>High</string>
+						<string>mask_high.png</string>
+					</array>
+					<array>
+						<string>Medium</string>
+						<string>mask_medium.png</string>
+					</array>
+					<array>
+						<string>Low</string>
+						<string>mask_low.png</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Background Roundness</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>bgRoundness</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>SF-Pro-Display-Semibold.otf</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>Ultralight</string>
+						<string>SF-Pro-Display-Ultralight.otf</string>
+					</array>
+					<array>
+						<string>Thin</string>
+						<string>SF-Pro-Display-Thin.otf</string>
+					</array>
+					<array>
+						<string>Light</string>
+						<string>SF-Pro-Display-Light.otf</string>
+					</array>
+					<array>
+						<string>Regular</string>
+						<string>SF-Pro-Display-Regular.otf</string>
+					</array>
+					<array>
+						<string>Medium</string>
+						<string>SF-Pro-Display-Medium.otf</string>
+					</array>
+					<array>
+						<string>Semibold</string>
+						<string>SF-Pro-Display-Semibold.otf</string>
+					</array>
+					<array>
+						<string>Bold</string>
+						<string>SF-Pro-Display-Bold.otf</string>
+					</array>
+					<array>
+						<string>Heavy</string>
+						<string>SF-Pro-Display-Heavy.otf</string>
+					</array>
+					<array>
+						<string>Black</string>
+						<string>SF-Pro-Display-Black.otf</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Choose Symbol Weight</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>fontWeight</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>0</string>
 				<key>placeholder</key>
-				<string></string>
+				<string>0</string>
 				<key>required</key>
-				<false/>
+				<true/>
 				<key>trim</key>
 				<true/>
 			</dict>
 			<key>description</key>
-			<string>Accepts hex: #52f97b or RGB: rgb(82, 249, 123)</string>
+			<string>Additional margin around the icon. 
+Around 0 to 10 works best.</string>
 			<key>label</key>
-			<string>Background Colour</string>
+			<string>Margin</string>
 			<key>type</key>
 			<string>textfield</string>
 			<key>variable</key>
-			<string>bgColour</string>
+			<string>margin_percent</string>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -498,19 +2846,17 @@ This workflow was adapted from work by Mark Gavin - https://labs.appligent.com/p
 				<true/>
 			</dict>
 			<key>description</key>
-			<string>By default, generated icons are saved to temporary storage. If you would prefer to keep them somewhere, choose a location.</string>
+			<string>By default, generated icons are saved to temporary storage. To save them elsewhere, set a location.</string>
 			<key>label</key>
-			<string>Location for saving</string>
+			<string>Location for Saving</string>
 			<key>type</key>
 			<string>filepicker</string>
 			<key>variable</key>
 			<string>location</string>
 		</dict>
 	</array>
-	<key>variablesdontexport</key>
-	<array/>
 	<key>version</key>
-	<string>0.2.0</string>
+	<string>3.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/NeighNeighNeigh/Alfred_IconGenerator</string>
 </dict>
