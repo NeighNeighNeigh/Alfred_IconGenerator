@@ -1084,7 +1084,7 @@ cp -f DBDC800C-892D-4517-833A-8ABC465E948E.png F29DB020-E6BD-4876-8E0C-26A9877DD
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>123</string>
+				<string>Icon Generator Config</string>
 				<key>subtext</key>
 				<string>Configure appearance settings</string>
 				<key>text</key>
@@ -1766,14 +1766,6 @@ cp -f DBDC800C-892D-4517-833A-8ABC465E948E.png F29DB020-E6BD-4876-8E0C-26A9877DD
 			<integer>2</integer>
 		</dict>
 		<dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.junction</string>
-			<key>uid</key>
-			<string>DE963BBD-2746-4B51-972A-667480E5B834</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
 			<key>config</key>
 			<dict>
 				<key>concurrently</key>
@@ -2211,30 +2203,27 @@ fi</string>
 	</array>
 	<key>readme</key>
 	<string># Alfred Icon Generator
-This workflow will convert a single Emoji or SF Symbol to an icon (png file) and place it on the clipboard. Handy for adding icons in your Alfred workflows. 
 
-## Dependencies: 
+Icon Generator will quickly convert an SF Symbol or Emoji to .png for use in workflows. It has some nice options for adjusting appearance including a configurable colour palette.
+
+# Dependencies:
+
 SF Symbols - https://developer.apple.com/sf-symbols/
-ImageMagick
-Pillow (for Python)
+ImageMagick (available via Homebrew)
+Pillow for Python (available via Homebrew)
+(Note: the latter two dependencies can be handled by Alfred if you are installing through the Alfred Gallery)
 
-## Configuration
-In the workflow's configuration you can adjust the SF Symbol weight, colour and background settings, as well as define the location on disk where icons are generated (defaults to /tmp) 
+# Usage
 
-## There's 2 ways to run the workflow
+Start by copying an emoji, or an icon in the SF Symbols app.
 
-1. Clipboard method
-Copy either a single symbol from SF symbols, or a single emoji to the clipboard. Now run the trigger. The workflow has converted the source into a png image and copied it to your clipboard - ready to paste into any icon field within Alfred (or wherever you like).
+Convert it to PNG with the icon generator keyword. The result will be in your clipboard.
 
-2. Universal Action method
-Select a single symbol / emoji and execute the workflow through Alfred's univeral action feature.
+Alternatively, select the emoji or icon and use the Universal Action.
 
+You can then paste directly into Alfred.
 
-## Acknowledgements
-
-The SF Symbols portion of this workflow was adapted from work by Mark Gavin - https://labs.appligent.com/pdfblog/convert-sf-symbols-to-images/
-
-This wouldn't be possible without the help of user Vitor from the Alfred forum.</string>
+Hold option when running Icon Generator to configure the icon's appearance</string>
 	<key>uidata</key>
 	<dict>
 		<key>00F10721-43D4-40FD-9314-A3EB924BCFE0</key>
@@ -2579,17 +2568,6 @@ is being replaced dynamically</string>
 			<key>ypos</key>
 			<real>760</real>
 		</dict>
-		<key>DE963BBD-2746-4B51-972A-667480E5B834</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>1</integer>
-			<key>note</key>
-			<string>See note in the script file about also checking for the existence of the icons folder</string>
-			<key>xpos</key>
-			<real>1400</real>
-			<key>ypos</key>
-			<real>675</real>
-		</dict>
 		<key>DF5EB554-E73F-410A-83FE-59C299493C6D</key>
 		<dict>
 			<key>xpos</key>
@@ -2855,6 +2833,8 @@ Around 0 to 10 works best.</string>
 			<string>location</string>
 		</dict>
 	</array>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
 	<string>3.2</string>
 	<key>webaddress</key>
