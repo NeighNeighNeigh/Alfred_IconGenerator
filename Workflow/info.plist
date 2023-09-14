@@ -735,6 +735,25 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>externaltriggerid</key>
+				<string>Swatch Picker</string>
+				<key>passinputasargument</key>
+				<false/>
+				<key>passvariables</key>
+				<true/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>060CD21A-B296-472F-8FA8-F84CE56AB574</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -754,25 +773,6 @@
 			<string>2B4E492B-764C-4C73-8A11-328F6C462371</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>externaltriggerid</key>
-				<string>Swatch Picker</string>
-				<key>passinputasargument</key>
-				<false/>
-				<key>passvariables</key>
-				<true/>
-				<key>workflowbundleid</key>
-				<string>self</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.callexternaltrigger</string>
-			<key>uid</key>
-			<string>060CD21A-B296-472F-8FA8-F84CE56AB574</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -866,6 +866,25 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>externaltriggerid</key>
+				<string>Generate Preview</string>
+				<key>passinputasargument</key>
+				<false/>
+				<key>passvariables</key>
+				<true/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>35D5B2B4-CF89-4A0C-8B33-6DA5CC4DF20F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -892,25 +911,6 @@ Application('com.runningwithcrayons.Alfred').setConfiguration('useBg', {
 			<string>2AF6EB83-6A8A-488B-AB9D-12360650E4F6</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>externaltriggerid</key>
-				<string>Generate Preview</string>
-				<key>passinputasargument</key>
-				<false/>
-				<key>passvariables</key>
-				<true/>
-				<key>workflowbundleid</key>
-				<string>self</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.callexternaltrigger</string>
-			<key>uid</key>
-			<string>35D5B2B4-CF89-4A0C-8B33-6DA5CC4DF20F</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1043,65 +1043,6 @@ Application('com.runningwithcrayons.Alfred').setConfiguration('useBg', {
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>if [ "$useBg" = 1 ]; then
-  convert -background $bg_colour -font /Library/Fonts/$fontWeight -fill $fg_colour -gravity "center" -size "256x256" caption:"$glyph" +repage -depth 8 "DBDC800C-892D-4517-833A-8ABC465E948E.png"
-  convert "DBDC800C-892D-4517-833A-8ABC465E948E.png" -bordercolor $bg_colour -border 5% -resize "256x256" "DBDC800C-892D-4517-833A-8ABC465E948E.png"
-  convert "DBDC800C-892D-4517-833A-8ABC465E948E.png" -matte $bgRoundness -compose DstIn -composite "DBDC800C-892D-4517-833A-8ABC465E948E.png"
-  convert "DBDC800C-892D-4517-833A-8ABC465E948E.png" -matte -bordercolor none -border "$margin_percent"% "DBDC800C-892D-4517-833A-8ABC465E948E.png"
-else
-  convert -background none -font /Library/Fonts/$fontWeight -fill $fg_colour -gravity "center" -size "256x256" caption:"$glyph" +repage -depth 8 "DBDC800C-892D-4517-833A-8ABC465E948E.png"
-  convert "DBDC800C-892D-4517-833A-8ABC465E948E.png" -matte -bordercolor none -border "$margin_percent"% "DBDC800C-892D-4517-833A-8ABC465E948E.png"
-fi
-
-cp -f DBDC800C-892D-4517-833A-8ABC465E948E.png F29DB020-E6BD-4876-8E0C-26A9877DD1C2.png</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>5</integer>
-			</dict>
-			<key>inboundconfig</key>
-			<dict>
-				<key>externalid</key>
-				<string>Options Menu - First Run</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>0F112DB8-4F31-4419-B64F-4D2F22C5CE9E</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>Icon Generator Config</string>
-				<key>subtext</key>
-				<string>Configure appearance settings</string>
-				<key>text</key>
-				<string>Icon Generator Config</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>4D7F6811-5901-44B6-A4B1-C56E98CC0C99</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>alfredfiltersresults</key>
 				<true/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -1204,6 +1145,77 @@ print(new_json_data)
 			<string>DBDC800C-892D-4517-833A-8ABC465E948E</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>Icon Generator Config</string>
+				<key>subtext</key>
+				<string>Configure appearance settings</string>
+				<key>text</key>
+				<string>Icon Generator Config</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>4D7F6811-5901-44B6-A4B1-C56E98CC0C99</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string># Check if the file or the folder does not exist
+if [[ ! -f "$alfred_workflow_data/swatch.json" || ! -d "$alfred_workflow_data/icons" ]]; then
+    # Create the directory if it doesn't exist
+    mkdir -p "$alfred_workflow_data"
+    
+    # Copy the defaults
+    cp -r "$alfred_preferences/workflows/$alfred_workflow_uid/defaults"/* "$alfred_workflow_data/"
+fi
+
+
+
+
+if [ "$useBg" = 1 ]; then
+  convert -background $bg_colour -font /Library/Fonts/$fontWeight -fill $fg_colour -gravity "center" -size "256x256" caption:"$glyph" +repage -depth 8 "DBDC800C-892D-4517-833A-8ABC465E948E.png"
+  convert "DBDC800C-892D-4517-833A-8ABC465E948E.png" -bordercolor $bg_colour -border 5% -resize "256x256" "DBDC800C-892D-4517-833A-8ABC465E948E.png"
+  convert "DBDC800C-892D-4517-833A-8ABC465E948E.png" -matte $bgRoundness -compose DstIn -composite "DBDC800C-892D-4517-833A-8ABC465E948E.png"
+  convert "DBDC800C-892D-4517-833A-8ABC465E948E.png" -matte -bordercolor none -border "$margin_percent"% "DBDC800C-892D-4517-833A-8ABC465E948E.png"
+else
+  convert -background none -font /Library/Fonts/$fontWeight -fill $fg_colour -gravity "center" -size "256x256" caption:"$glyph" +repage -depth 8 "DBDC800C-892D-4517-833A-8ABC465E948E.png"
+  convert "DBDC800C-892D-4517-833A-8ABC465E948E.png" -matte -bordercolor none -border "$margin_percent"% "DBDC800C-892D-4517-833A-8ABC465E948E.png"
+fi
+
+cp -f DBDC800C-892D-4517-833A-8ABC465E948E.png F29DB020-E6BD-4876-8E0C-26A9877DD1C2.png</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>inboundconfig</key>
+			<dict>
+				<key>externalid</key>
+				<string>Options First Run</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>0F112DB8-4F31-4419-B64F-4D2F22C5CE9E</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1567,40 +1579,6 @@ print(json_data)
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
-				<integer>68</integer>
-				<key>script</key>
-				<string>// Set the main variable in Configuration Sheet
-
-ObjC.import('stdlib');
-Application('com.runningwithcrayons.Alfred').setConfiguration('fg_colour', {
-    toValue: $.getenv('selected_colour'),
-    inWorkflow: $.getenv('alfred_workflow_bundleid'),
-    exportable: true
-});
-
-
-// output selected_colour without the '#' for use in next workflow objects
-$.getenv('selected_colour').replace(/#/g, "");</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>7</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>85CB9C50-C573-4740-91E9-A1CE2E113117</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
 				<string>colour=$1
@@ -1626,6 +1604,40 @@ convert $save_path -matte -bordercolor none -border "$margin_percent"% "$save_pa
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
 			<string>53C7CA30-87EE-4107-99AB-61C2E4B0A93B</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>// Set the main variable in Configuration Sheet
+
+ObjC.import('stdlib');
+Application('com.runningwithcrayons.Alfred').setConfiguration('fg_colour', {
+    toValue: $.getenv('selected_colour'),
+    inWorkflow: $.getenv('alfred_workflow_bundleid'),
+    exportable: true
+});
+
+
+// output selected_colour without the '#' for use in next workflow objects
+$.getenv('selected_colour').replace(/#/g, "");</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>85CB9C50-C573-4740-91E9-A1CE2E113117</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -1835,6 +1847,19 @@ convert $save_path -matte -bordercolor none -border "$margin_percent"% "$save_pa
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.transform</string>
+			<key>uid</key>
+			<string>DF5EB554-E73F-410A-83FE-59C299493C6D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argument</key>
 				<string>{query}</string>
 				<key>passthroughargument</key>
@@ -1849,19 +1874,6 @@ convert $save_path -matte -bordercolor none -border "$margin_percent"% "$save_pa
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>DE724F31-C36C-4B2E-A900-A39D4B1E3F02</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.transform</string>
-			<key>uid</key>
-			<string>DF5EB554-E73F-410A-83FE-59C299493C6D</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1883,6 +1895,25 @@ convert $save_path -matte -bordercolor none -border "$margin_percent"% "$save_pa
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>externaltriggerid</key>
+				<string>Options First Run</string>
+				<key>passinputasargument</key>
+				<false/>
+				<key>passvariables</key>
+				<true/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>396BF2BF-6D79-4B0E-8811-012F443313AA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argument</key>
 				<string>{query}</string>
 				<key>passthroughargument</key>
@@ -1897,25 +1928,6 @@ convert $save_path -matte -bordercolor none -border "$margin_percent"% "$save_pa
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>14A5240F-C023-445D-A08B-211F7D92121F</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>externaltriggerid</key>
-				<string>Options Menu - First Run</string>
-				<key>passinputasargument</key>
-				<false/>
-				<key>passvariables</key>
-				<true/>
-				<key>workflowbundleid</key>
-				<string>self</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.callexternaltrigger</string>
-			<key>uid</key>
-			<string>396BF2BF-6D79-4B0E-8811-012F443313AA</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -2250,7 +2262,9 @@ Hold option when running Icon Generator to configure the icon's appearance</stri
 		<key>0F112DB8-4F31-4419-B64F-4D2F22C5CE9E</key>
 		<dict>
 			<key>note</key>
-			<string>Update icons</string>
+			<string>Options First Run
+• Update icons
+• Confirm required data present</string>
 			<key>xpos</key>
 			<real>515</real>
 			<key>ypos</key>
@@ -2325,7 +2339,7 @@ so should return here</string>
 			<key>xpos</key>
 			<real>815</real>
 			<key>ypos</key>
-			<real>895</real>
+			<real>890</real>
 		</dict>
 		<key>3A3F894D-00E7-4283-8996-3B119ABC6E3D</key>
 		<dict>
@@ -2364,7 +2378,7 @@ Colour Picker</string>
 			<string>Generate
 FG swatch preview</string>
 			<key>xpos</key>
-			<real>2145</real>
+			<real>2150</real>
 			<key>ypos</key>
 			<real>585</real>
 		</dict>
@@ -2415,7 +2429,7 @@ FG swatch preview</string>
 			<key>note</key>
 			<string>Set a preview glyph</string>
 			<key>xpos</key>
-			<real>420</real>
+			<real>335</real>
 			<key>ypos</key>
 			<real>425</real>
 		</dict>
@@ -2520,7 +2534,7 @@ in workflow folder</string>
 			<string>Generate 
 BG swatch preview</string>
 			<key>xpos</key>
-			<real>2145</real>
+			<real>2150</real>
 			<key>ypos</key>
 			<real>730</real>
 		</dict>
@@ -2543,7 +2557,7 @@ BG swatch preview</string>
 		<key>DA61D3A2-976B-407E-B752-DBA5447F6274</key>
 		<dict>
 			<key>xpos</key>
-			<real>2095</real>
+			<real>2100</real>
 			<key>ypos</key>
 			<real>615</real>
 		</dict>
@@ -2571,7 +2585,7 @@ is being replaced dynamically</string>
 		<key>DF5EB554-E73F-410A-83FE-59C299493C6D</key>
 		<dict>
 			<key>xpos</key>
-			<real>2095</real>
+			<real>2100</real>
 			<key>ypos</key>
 			<real>760</real>
 		</dict>
@@ -2632,7 +2646,7 @@ is being replaced dynamically</string>
 			<key>xpos</key>
 			<real>1080</real>
 			<key>ypos</key>
-			<real>885</real>
+			<real>890</real>
 		</dict>
 		<key>F856ED1E-689A-4536-A5A0-35E8EAAA5EE5</key>
 		<dict>
@@ -2836,7 +2850,7 @@ Around 0 to 10 works best.</string>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>3.2</string>
+	<string>3.2.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/NeighNeighNeigh/Alfred_IconGenerator</string>
 </dict>

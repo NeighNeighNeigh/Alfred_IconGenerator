@@ -14,10 +14,13 @@ defaults_path = os.path.join(alfred_preferences, "workflows", alfred_workflow_ui
 # Set input path
 input_path = os.path.join(alfred_workflow_data, "swatch.json")
 
-# Check if input_path exists
-if not os.path.exists(input_path): # NOTE: I should add a check in here to see if the icon folder exists too
-    # Copy files and folders from defaults_path to alfred_workflow_data
-    shutil.copytree(defaults_path, alfred_workflow_data, dirs_exist_ok=True) 
+
+# NOTE: I'm doing this earlier on now, in the first configuration shell script
+# # Check if input_path exists
+# if not os.path.exists(input_path): # NOTE: I should add a check in here to see if the icon folder exists too
+#     # Copy files and folders from defaults_path to alfred_workflow_data
+#     shutil.copytree(defaults_path, alfred_workflow_data, dirs_exist_ok=True)
+
 
 # Read the JSON file
 with open(input_path) as file:
