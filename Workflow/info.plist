@@ -1176,14 +1176,6 @@ print(new_json_data)
 				<integer>102</integer>
 				<key>script</key>
 				<string># Check if the file or the folder does not exist
-if [[ ! -f "$alfred_workflow_data/swatch.json" || ! -d "$alfred_workflow_data/icons" ]]; then
-    # Create the directory if it doesn't exist
-    mkdir -p "$alfred_workflow_data"
-    
-    # Copy the defaults
-    cp -r "$alfred_preferences/workflows/$alfred_workflow_uid/defaults"/* "$alfred_workflow_data/"
-fi
-
 
 
 
@@ -2262,9 +2254,7 @@ Hold option when running Icon Generator to configure the icon's appearance</stri
 		<key>0F112DB8-4F31-4419-B64F-4D2F22C5CE9E</key>
 		<dict>
 			<key>note</key>
-			<string>Options First Run
-• Update icons
-• Confirm required data present</string>
+			<string>Generate icon preview</string>
 			<key>xpos</key>
 			<real>515</real>
 			<key>ypos</key>
@@ -2850,7 +2840,7 @@ Around 0 to 10 works best.</string>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>3.2.1</string>
+	<string>3.3.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/NeighNeighNeigh/Alfred_IconGenerator</string>
 </dict>
